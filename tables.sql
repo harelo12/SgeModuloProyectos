@@ -1,6 +1,6 @@
 USE [Dam2_HaranElola]
 GO
-/****** Object:  Table [dbo].[Employees]    Script Date: 05/11/2025 9:20:52 ******/
+/****** Object:  Table [dbo].[Employees]    Script Date: 07/11/2025 8:37:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -30,7 +30,7 @@ CREATE TABLE [dbo].[Employees](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Priorities]    Script Date: 05/11/2025 9:20:52 ******/
+/****** Object:  Table [dbo].[Priorities]    Script Date: 07/11/2025 8:37:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -44,7 +44,7 @@ CREATE TABLE [dbo].[Priorities](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Projects]    Script Date: 05/11/2025 9:20:52 ******/
+/****** Object:  Table [dbo].[Projects]    Script Date: 07/11/2025 8:37:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -58,13 +58,14 @@ CREATE TABLE [dbo].[Projects](
 	[Priority] [int] NOT NULL,
 	[LeaderID] [int] NOT NULL,
 	[Status] [int] NULL,
+	[TotalHours] [time](0) NULL,
  CONSTRAINT [PK_Projects] PRIMARY KEY CLUSTERED 
 (
 	[ProjectID] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Status]    Script Date: 05/11/2025 9:20:52 ******/
+/****** Object:  Table [dbo].[Status]    Script Date: 07/11/2025 8:37:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -78,7 +79,7 @@ CREATE TABLE [dbo].[Status](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Tasks]    Script Date: 05/11/2025 9:20:52 ******/
+/****** Object:  Table [dbo].[Tasks]    Script Date: 07/11/2025 8:37:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON

@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\modulogestionproyectos\\app\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\modulogestionproyectos\\app\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\app\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\modulogestionproyectos\\app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\app\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\modulogestionproyectos\\app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\app\\local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\modulogestionproyectos\\app\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\app\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7CBB80D-D8A2-4EB7-B89D-E94FCF00AF01}|App\\App.csproj|solutionrelative:app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Local.cs",
+              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Local.cs",
+              "RelativeDocumentMoniker": "App\\Local.cs",
+              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Local.cs",
+              "RelativeToolTip": "App\\Local.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T08:04:32.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Main.cs",
+              "RelativeDocumentMoniker": "App\\Main.cs",
+              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Main.cs [Dise\u00F1o]",
+              "RelativeToolTip": "App\\Main.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T07:50:00.335Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Main.cs",
+              "RelativeDocumentMoniker": "App\\Main.cs",
+              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Main.cs",
+              "RelativeToolTip": "App\\Main.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T07:48:46.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Projects.cs",
+              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Projects.cs",
+              "RelativeDocumentMoniker": "App\\Projects.cs",
+              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Projects.cs",
+              "RelativeToolTip": "App\\Projects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T07:43:09.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Projects.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Projects.cs",
+              "RelativeDocumentMoniker": "App\\Projects.cs",
+              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Projects.cs [Dise\u00F1o]",
+              "RelativeToolTip": "App\\Projects.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T07:41:04.463Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Dashboard.cs",
               "RelativeDocumentMoniker": "App\\Dashboard.cs",
@@ -38,45 +113,18 @@
               "RelativeToolTip": "App\\Dashboard.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T08:31:19.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T08:31:19.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Dashboard.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Dashboard.cs",
               "RelativeDocumentMoniker": "App\\Dashboard.cs",
               "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Dashboard.cs [Dise\u00F1o]",
               "RelativeToolTip": "App\\Dashboard.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T08:31:05.852Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Main.cs",
-              "RelativeDocumentMoniker": "App\\Main.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Main.cs*",
-              "RelativeToolTip": "App\\Main.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T08:12:42.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Main.cs",
-              "RelativeDocumentMoniker": "App\\Main.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\ModuloGestionProyectos\\App\\Main.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "App\\Main.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T08:09:57.616Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-05T08:31:05.852Z"
             }
           ]
         }

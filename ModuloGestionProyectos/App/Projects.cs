@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace App
 {
-    public partial class Main : Form
+    public partial class Projects : UserControl
     {
-        public Main()
+        public Projects()
         {
             InitializeComponent();
         }
 
-        private void Main_Load(object sender, EventArgs e)
+        private void Projects_Load(object sender, EventArgs e)
         {
+            
 
-        }
-
-        private void proyectosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var uc = new Projects();
-           
         }
     }
 }
