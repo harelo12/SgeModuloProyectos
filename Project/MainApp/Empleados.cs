@@ -59,6 +59,7 @@ namespace MainApp
             buttonNuevo.Enabled = v;
             buttonModificar.Enabled = v;
             buttonEliminar.Enabled = v;
+            buttonLimpiar.Enabled = v;
         }
 
         String[] GetControlsValues()

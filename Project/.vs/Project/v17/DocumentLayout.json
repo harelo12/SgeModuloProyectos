@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3F587F1-1084-47FF-AE5A-08A69AB62E06}|ProjectManagement.Core\\ProjectManagement.Core.csproj|g:\\haranelola\\sge\\sgemoduloproyectos\\project\\projectmanagement.core\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F587F1-1084-47FF-AE5A-08A69AB62E06}|ProjectManagement.Core\\ProjectManagement.Core.csproj|solutionrelative:projectmanagement.core\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|g:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|g:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Main.cs [Dise\u00F1o]",
               "DocumentMoniker": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs",
               "RelativeDocumentMoniker": "MainApp\\Main.cs",
@@ -58,8 +62,17 @@
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Projects.cs",
+              "DocumentMoniker": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\ProjectManagement.Core\\Projects.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.Core\\Projects.cs",
+              "ToolTip": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\ProjectManagement.Core\\Projects.cs",
+              "RelativeToolTip": "ProjectManagement.Core\\Projects.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:52:59.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,14 +82,14 @@
               "RelativeDocumentMoniker": "MainApp\\Empleados.cs",
               "ToolTip": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Empleados.cs",
               "RelativeToolTip": "MainApp\\Empleados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T07:45:01.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Proyectos.cs [Dise\u00F1o]",
               "DocumentMoniker": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.cs",
               "RelativeDocumentMoniker": "MainApp\\Proyectos.cs",
@@ -88,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MainForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MainApp\\MainForm.cs",
@@ -100,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Empleados.cs [Dise\u00F1o]",
               "DocumentMoniker": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Empleados.cs",
               "RelativeDocumentMoniker": "MainApp\\Empleados.cs",
@@ -112,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Main.cs",
               "DocumentMoniker": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs",
               "RelativeDocumentMoniker": "MainApp\\Main.cs",
@@ -125,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "funciones.cs",
               "DocumentMoniker": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\funciones.cs",
               "RelativeDocumentMoniker": "MainApp\\funciones.cs",
@@ -133,11 +146,12 @@
               "RelativeToolTip": "MainApp\\funciones.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:37:51.15Z"
+              "WhenOpened": "2025-11-11T07:37:51.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainForm.cs",
               "DocumentMoniker": "G:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MainApp\\MainForm.cs",

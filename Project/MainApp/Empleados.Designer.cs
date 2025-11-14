@@ -44,7 +44,7 @@
             this.buttonModificar = new System.Windows.Forms.Button();
             this.buttonEliminar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.buttonLimpiar = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.fechaNacimiento = new System.Windows.Forms.DateTimePicker();
@@ -211,7 +211,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel1.Controls.Add(this.btnLimpiar);
+            this.panel1.Controls.Add(this.buttonLimpiar);
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.buttonModificar);
             this.panel1.Controls.Add(this.buttonEliminar);
@@ -223,14 +223,14 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Enabled = false;
-            this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(19, 297);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(127, 45);
-            this.btnLimpiar.TabIndex = 24;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.buttonLimpiar.Enabled = false;
+            this.buttonLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLimpiar.Location = new System.Drawing.Point(19, 297);
+            this.buttonLimpiar.Name = "btnLimpiar";
+            this.buttonLimpiar.Size = new System.Drawing.Size(127, 45);
+            this.buttonLimpiar.TabIndex = 24;
+            this.buttonLimpiar.Text = "Limpiar";
+            this.buttonLimpiar.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
@@ -383,7 +383,7 @@
         private System.Windows.Forms.Button buttonEliminar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button buttonLimpiar;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker fechaNacimiento;
         private System.Windows.Forms.Label label5;
