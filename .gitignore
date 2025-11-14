@@ -53,4 +53,30 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 
+# mis notas
 /notas/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+*.bak
+
+# temp files
+*.tmp
+*.temp
+*.log
+*.err
+
+# package cache
+packages/
+
+# dot env files
+.env
