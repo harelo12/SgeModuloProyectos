@@ -104,5 +104,17 @@ namespace MainApp
             flowPanelTareas.Controls.Add(t10);
 
         }
+
+        private void nuevoProyectoClick(object sender, EventArgs e)
+        {
+            var frm = new NuevoProyecto();
+            frm.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var frm = new NuevaTarea();
+            frm.ShowDialog();
+        }
     }
 }

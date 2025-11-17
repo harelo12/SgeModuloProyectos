@@ -19,8 +19,12 @@ namespace MainApp
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            this.BeginInvoke((Action)(() =>
+            {
+                this.AutoScrollPosition = new Point(0, 0);
+            }));
         }
+
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {

@@ -71,7 +71,7 @@
             this.hojaDeDatoscsvToolStripMenuItem});
             this.exportarProyectosToolStripMenuItem.Image = global::MainApp.Properties.Resources.Pictogrammers_Material_Export_variant2;
             this.exportarProyectosToolStripMenuItem.Name = "exportarProyectosToolStripMenuItem";
-            this.exportarProyectosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exportarProyectosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.exportarProyectosToolStripMenuItem.Text = "Exportar Proyectos";
             this.exportarProyectosToolStripMenuItem.Click += new System.EventHandler(this.exportarProyectosToolStripMenuItem_Click);
             // 
@@ -79,7 +79,7 @@
             // 
             this.hojaDeDatoscsvToolStripMenuItem.Image = global::MainApp.Properties.Resources.Bootstrap_Bootstrap_Bootstrap_filetype_csv1;
             this.hojaDeDatoscsvToolStripMenuItem.Name = "hojaDeDatoscsvToolStripMenuItem";
-            this.hojaDeDatoscsvToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hojaDeDatoscsvToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.hojaDeDatoscsvToolStripMenuItem.Text = "Hoja de datos (csv)";
             // 
             // exportarEmpleadosToolStripMenuItem
@@ -88,20 +88,20 @@
             this.hojaDeDatoscsvToolStripMenuItem1});
             this.exportarEmpleadosToolStripMenuItem.Image = global::MainApp.Properties.Resources.Pictogrammers_Material_Export_variant2;
             this.exportarEmpleadosToolStripMenuItem.Name = "exportarEmpleadosToolStripMenuItem";
-            this.exportarEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exportarEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.exportarEmpleadosToolStripMenuItem.Text = "Exportar Empleados";
             // 
             // hojaDeDatoscsvToolStripMenuItem1
             // 
             this.hojaDeDatoscsvToolStripMenuItem1.Image = global::MainApp.Properties.Resources.Bootstrap_Bootstrap_Bootstrap_filetype_csv1;
             this.hojaDeDatoscsvToolStripMenuItem1.Name = "hojaDeDatoscsvToolStripMenuItem1";
-            this.hojaDeDatoscsvToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.hojaDeDatoscsvToolStripMenuItem1.Size = new System.Drawing.Size(175, 22);
             this.hojaDeDatoscsvToolStripMenuItem1.Text = "Hoja de datos (csv)";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -145,6 +145,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestor de Proyectos";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);

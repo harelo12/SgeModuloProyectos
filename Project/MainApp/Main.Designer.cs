@@ -77,12 +77,13 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(15, 23);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(18, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
@@ -99,10 +100,10 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
-            this.label1.Location = new System.Drawing.Point(20, 10);
+            this.label1.Location = new System.Drawing.Point(21, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1052, 37);
+            this.label1.Size = new System.Drawing.Size(1050, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Gestión de Proyectos y Tareas";
             // 
@@ -117,9 +118,9 @@
             this.flowLayoutPanel1.Controls.Add(this.panel4);
             this.flowLayoutPanel1.Controls.Add(this.panel5);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 50);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 51);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1066, 87);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1064, 85);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // panel6
@@ -340,17 +341,18 @@
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.label14, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.flowLayoutPanel2, 0, 1);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(18, 202);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(18, 166);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.52892F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 83.47108F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1069, 328);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.02439F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.97561F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1069, 376);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // label14
@@ -360,10 +362,10 @@
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label14.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
-            this.label14.Location = new System.Drawing.Point(20, 10);
+            this.label14.Location = new System.Drawing.Point(21, 11);
             this.label14.Margin = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(1049, 44);
+            this.label14.Size = new System.Drawing.Size(1047, 42);
             this.label14.TabIndex = 0;
             this.label14.Text = "Proyectos";
             // 
@@ -373,9 +375,9 @@
             this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel2.Controls.Add(this.dataGridView1);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 57);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(4, 57);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1063, 268);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1061, 315);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
             // dataGridView1
@@ -387,23 +389,24 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(11, 9, 3, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(1040, 244);
+            this.dataGridView1.Size = new System.Drawing.Size(1040, 295);
             this.dataGridView1.TabIndex = 0;
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.Controls.Add(this.label15, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.flowLayoutPanel3, 0, 1);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(15, 574);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(15, 566);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.52892F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 83.47108F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1072, 351);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.73469F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 88.2653F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1072, 392);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
             // label15
@@ -413,10 +416,10 @@
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label15.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
-            this.label15.Location = new System.Drawing.Point(20, 10);
+            this.label15.Location = new System.Drawing.Point(21, 11);
             this.label15.Margin = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(1052, 48);
+            this.label15.Size = new System.Drawing.Size(1050, 35);
             this.label15.TabIndex = 0;
             this.label15.Text = "Tareas";
             // 
@@ -426,9 +429,9 @@
             this.flowLayoutPanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel3.Controls.Add(this.dataGridView2);
             this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 61);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(4, 50);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(1066, 287);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(1064, 338);
             this.flowLayoutPanel3.TabIndex = 1;
             // 
             // dataGridView2
@@ -440,7 +443,7 @@
             this.dataGridView2.Margin = new System.Windows.Forms.Padding(11, 9, 3, 3);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.Size = new System.Drawing.Size(1043, 263);
+            this.dataGridView2.Size = new System.Drawing.Size(1043, 313);
             this.dataGridView2.TabIndex = 0;
             // 
             // flowLayoutPanel4

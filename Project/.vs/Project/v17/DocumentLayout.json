@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\proyectos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\proyectos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Proyectos.Designer.cs",
+              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.Designer.cs",
+              "RelativeDocumentMoniker": "MainApp\\Proyectos.Designer.cs",
+              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.Designer.cs",
+              "RelativeToolTip": "MainApp\\Proyectos.Designer.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAvwIoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:22:05.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs",
+              "RelativeDocumentMoniker": "MainApp\\Main.cs",
+              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs",
+              "RelativeToolTip": "MainApp\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:19:41.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Main.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs",
+              "RelativeDocumentMoniker": "MainApp\\Main.cs",
+              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MainApp\\Main.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:17:08.354Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Proyectos.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.cs",
               "RelativeDocumentMoniker": "MainApp\\Proyectos.cs",
