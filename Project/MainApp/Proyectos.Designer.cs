@@ -32,12 +32,14 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
             this.flowPanelProyectos = new System.Windows.Forms.FlowLayoutPanel();
             this.flowPanelTareas = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -97,10 +99,30 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.splitContainer1.Panel2.Controls.Add(this.panel1);
+            this.splitContainer1.Panel2.Controls.Add(this.comboBox1);
             this.splitContainer1.Panel2.Controls.Add(this.flowPanelTareas);
             this.splitContainer1.Size = new System.Drawing.Size(1113, 566);
             this.splitContainer1.SplitterDistance = 371;
             this.splitContainer1.TabIndex = 1;
+            // 
+            // flowPanelProyectos
+            // 
+            this.flowPanelProyectos.AutoScroll = true;
+            this.flowPanelProyectos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowPanelProyectos.Location = new System.Drawing.Point(0, 0);
+            this.flowPanelProyectos.Name = "flowPanelProyectos";
+            this.flowPanelProyectos.Size = new System.Drawing.Size(369, 564);
+            this.flowPanelProyectos.TabIndex = 0;
+            this.flowPanelProyectos.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
+            // 
+            // flowPanelTareas
+            // 
+            this.flowPanelTareas.AutoScroll = true;
+            this.flowPanelTareas.Location = new System.Drawing.Point(0, 55);
+            this.flowPanelTareas.Name = "flowPanelTareas";
+            this.flowPanelTareas.Size = new System.Drawing.Size(736, 509);
+            this.flowPanelTareas.TabIndex = 1;
             // 
             // flowLayoutPanel2
             // 
@@ -120,25 +142,6 @@
             this.label1.Size = new System.Drawing.Size(125, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "1 Proyecto(s) | 1 Tarea(s)";
-            // 
-            // flowPanelProyectos
-            // 
-            this.flowPanelProyectos.AutoScroll = true;
-            this.flowPanelProyectos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowPanelProyectos.Location = new System.Drawing.Point(0, 0);
-            this.flowPanelProyectos.Name = "flowPanelProyectos";
-            this.flowPanelProyectos.Size = new System.Drawing.Size(369, 564);
-            this.flowPanelProyectos.TabIndex = 0;
-            this.flowPanelProyectos.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
-            // 
-            // flowPanelTareas
-            // 
-            this.flowPanelTareas.AutoScroll = true;
-            this.flowPanelTareas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowPanelTareas.Location = new System.Drawing.Point(0, 0);
-            this.flowPanelTareas.Name = "flowPanelTareas";
-            this.flowPanelTareas.Size = new System.Drawing.Size(736, 564);
-            this.flowPanelTareas.TabIndex = 1;
             // 
             // label2
             // 
@@ -160,6 +163,22 @@
             this.label3.Size = new System.Drawing.Size(58, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Tareas";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(3, 3);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 0;
+            this.comboBox1.Text = "Estado";
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 30);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(737, 28);
+            this.panel1.TabIndex = 2;
             // 
             // Proyectos
             // 
@@ -198,5 +217,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowPanelTareas;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

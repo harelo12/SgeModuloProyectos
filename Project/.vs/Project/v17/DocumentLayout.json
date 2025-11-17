@@ -3,68 +3,8 @@
   "WorkspaceRootPath": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\uctareaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\uctareaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\uctareaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\uctareaitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\proyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\ucproyectoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\ucproyectoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3F587F1-1084-47FF-AE5A-08A69AB62E06}|ProjectManagement.Core\\ProjectManagement.Core.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\projectmanagement.core\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3F587F1-1084-47FF-AE5A-08A69AB62E06}|ProjectManagement.Core\\ProjectManagement.Core.csproj|solutionrelative:projectmanagement.core\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\uctareaitem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\uctareaitem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\proyectos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\proyectos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\ucproyectoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\ucproyectoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|d:\\haranelola\\sge\\sgemoduloproyectos\\project\\mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\mainapp\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5CC03F-1B0C-4584-A7A5-6CCAE75331C3}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\funciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,210 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Main.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs",
-              "RelativeDocumentMoniker": "MainApp\\Main.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MainApp\\Main.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:18:47.562Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Projects.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\ProjectManagement.Core\\Projects.cs",
-              "RelativeDocumentMoniker": "ProjectManagement.Core\\Projects.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\ProjectManagement.Core\\Projects.cs",
-              "RelativeToolTip": "ProjectManagement.Core\\Projects.cs",
-              "ViewState": "AgIAAA8AAACAGDMzMzMbwEwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T20:52:59.719Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UCTareaItem.Designer.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCTareaItem.Designer.cs",
-              "RelativeDocumentMoniker": "MainApp\\UCTareaItem.Designer.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCTareaItem.Designer.cs",
-              "RelativeToolTip": "MainApp\\UCTareaItem.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:49:45.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UCTareaItem.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCTareaItem.cs",
-              "RelativeDocumentMoniker": "MainApp\\UCTareaItem.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCTareaItem.cs",
-              "RelativeToolTip": "MainApp\\UCTareaItem.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:48:49.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UCTareaItem.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCTareaItem.cs",
-              "RelativeDocumentMoniker": "MainApp\\UCTareaItem.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCTareaItem.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MainApp\\UCTareaItem.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:48:39.974Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UCProyectoItem.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCProyectoItem.cs",
-              "RelativeDocumentMoniker": "MainApp\\UCProyectoItem.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCProyectoItem.cs",
-              "RelativeToolTip": "MainApp\\UCProyectoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:32:21.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Proyectos.Designer.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.Designer.cs",
-              "RelativeDocumentMoniker": "MainApp\\Proyectos.Designer.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.Designer.cs",
-              "RelativeToolTip": "MainApp\\Proyectos.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:30:58.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UCProyectoItem.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCProyectoItem.cs",
-              "RelativeDocumentMoniker": "MainApp\\UCProyectoItem.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\UCProyectoItem.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MainApp\\UCProyectoItem.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:24:24.537Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Proyectos.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.cs",
-              "RelativeDocumentMoniker": "MainApp\\Proyectos.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.cs",
-              "RelativeToolTip": "MainApp\\Proyectos.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T07:40:59.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Empleados.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Empleados.cs",
-              "RelativeDocumentMoniker": "MainApp\\Empleados.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Empleados.cs",
-              "RelativeToolTip": "MainApp\\Empleados.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:45:01.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Proyectos.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.cs",
               "RelativeDocumentMoniker": "MainApp\\Proyectos.cs",
               "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Proyectos.cs [Dise\u00F1o]",
               "RelativeToolTip": "MainApp\\Proyectos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T09:45:01.716Z",
+              "WhenOpened": "2025-11-17T11:36:11.693Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainApp\\MainForm.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\MainForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MainApp\\MainForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T09:23:51.06Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Empleados.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Empleados.cs",
-              "RelativeDocumentMoniker": "MainApp\\Empleados.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Empleados.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MainApp\\Empleados.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T09:18:25.348Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Main.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs",
-              "RelativeDocumentMoniker": "MainApp\\Main.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\Main.cs",
-              "RelativeToolTip": "MainApp\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T08:42:34.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "funciones.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\funciones.cs",
-              "RelativeDocumentMoniker": "MainApp\\funciones.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\funciones.cs",
-              "RelativeToolTip": "MainApp\\funciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:37:51.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainApp\\MainForm.cs",
-              "ToolTip": "D:\\HaranElola\\SGE\\SgeModuloProyectos\\Project\\MainApp\\MainForm.cs",
-              "RelativeToolTip": "MainApp\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:01:58.215Z",
-              "EditorCaption": ""
             }
           ]
         }
