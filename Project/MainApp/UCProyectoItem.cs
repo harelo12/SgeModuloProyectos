@@ -31,5 +31,9 @@ namespace MainApp
 
         }
 
+        private void UCProyectoItem_MouseHover(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

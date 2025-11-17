@@ -24,6 +24,7 @@ namespace MainApp
 
         private void Proyectos_Load(object sender, EventArgs e)
         {
+            /* datos de ejemplo*/
             var uc1 = new UCProyectoItem("Web Corporativa", "Diseño y desarrollo de la web de la empresa", 35);
             flowPanelProyectos.Controls.Add(uc1);
 
@@ -73,6 +74,8 @@ namespace MainApp
 
             var uc17 = new UCProyectoItem("Sistema de Backup", "Copia y restauración de datos críticos", 20);
             flowPanelProyectos.Controls.Add(uc17);
+            // --- Sección de UCTareaItem ---
+            // Lista de Tareas
             var t1 = new UCTareaItem("Instalar Windows", "Instalar y configurar Windows 11 en el PC de pruebas", 3);
             flowPanelTareas.Controls.Add(t1);
 
@@ -102,7 +105,7 @@ namespace MainApp
 
             var t10 = new UCTareaItem("Test de rendimiento", "Probar velocidad de CPU y RAM", 3);
             flowPanelTareas.Controls.Add(t10);
-
+            /***/
         }
 
         private void nuevoProyectoClick(object sender, EventArgs e)
@@ -115,6 +118,11 @@ namespace MainApp
         {
             var frm = new NuevaTarea();
             frm.ShowDialog();
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

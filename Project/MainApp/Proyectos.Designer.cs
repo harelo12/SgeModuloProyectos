@@ -33,7 +33,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.flowPanelProyectos = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.flowPanelTareas = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
@@ -59,11 +58,12 @@
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1122, 47);
             this.flowLayoutPanel1.TabIndex = 0;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(6, 6);
             this.button1.Name = "button1";
@@ -76,7 +76,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(148, 6);
             this.button2.Name = "button2";
@@ -101,8 +101,6 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.splitContainer1.Panel2.Controls.Add(this.panel1);
-            this.splitContainer1.Panel2.Controls.Add(this.comboBox1);
             this.splitContainer1.Panel2.Controls.Add(this.flowPanelTareas);
             this.splitContainer1.Size = new System.Drawing.Size(1113, 566);
             this.splitContainer1.SplitterDistance = 371;
@@ -111,6 +109,7 @@
             // flowPanelProyectos
             // 
             this.flowPanelProyectos.AutoScroll = true;
+            this.flowPanelProyectos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowPanelProyectos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowPanelProyectos.Location = new System.Drawing.Point(0, 0);
             this.flowPanelProyectos.Name = "flowPanelProyectos";
@@ -118,17 +117,10 @@
             this.flowPanelProyectos.TabIndex = 0;
             this.flowPanelProyectos.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
             // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(0, 30);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(737, 28);
-            this.panel1.TabIndex = 2;
-            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(3, 3);
+            this.comboBox1.Location = new System.Drawing.Point(997, 49);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 0;
@@ -137,9 +129,11 @@
             // flowPanelTareas
             // 
             this.flowPanelTareas.AutoScroll = true;
-            this.flowPanelTareas.Location = new System.Drawing.Point(0, 55);
+            this.flowPanelTareas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowPanelTareas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowPanelTareas.Location = new System.Drawing.Point(0, 0);
             this.flowPanelTareas.Name = "flowPanelTareas";
-            this.flowPanelTareas.Size = new System.Drawing.Size(736, 509);
+            this.flowPanelTareas.Size = new System.Drawing.Size(736, 564);
             this.flowPanelTareas.TabIndex = 1;
             // 
             // flowLayoutPanel2
@@ -187,6 +181,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -219,7 +214,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowPanelTareas;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBox1;
     }
 }
