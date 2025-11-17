@@ -38,7 +38,7 @@ namespace ProjectManagement.Core
             conn.Open();
             return cmd.ExecuteReader(CommandBehavior.CloseConnection);
         }
-
+        
         public static int NewProject(Project p, out int result, out int projectId)
         {
             result = 0;

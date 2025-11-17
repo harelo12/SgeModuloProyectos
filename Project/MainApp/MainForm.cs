@@ -25,7 +25,7 @@ namespace MainApp
 
         private void proyectosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            CargarUC<Proyectos>(panel1);
         }
 
         private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
