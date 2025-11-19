@@ -28,17 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblHoras = new System.Windows.Forms.Label();
             this.btnOpciones = new System.Windows.Forms.Button();
             this.lblestado = new System.Windows.Forms.Label();
             this.lblprioridad = new System.Windows.Forms.Label();
             this.lblfechaentrega = new System.Windows.Forms.Label();
-            this.progressBar = new System.Windows.Forms.ProgressBar();
-            this.lblProgreso = new System.Windows.Forms.Label();
             this.panelHeader = new System.Windows.Forms.Panel();
             this.lblDesc = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.verDetallesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelHeader.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -59,7 +63,7 @@
             this.lblHoras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblHoras.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHoras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.lblHoras.Location = new System.Drawing.Point(8, 98);
+            this.lblHoras.Location = new System.Drawing.Point(8, 125);
             this.lblHoras.Name = "lblHoras";
             this.lblHoras.Size = new System.Drawing.Size(83, 13);
             this.lblHoras.TabIndex = 2;
@@ -79,13 +83,14 @@
             this.btnOpciones.TabIndex = 3;
             this.btnOpciones.Text = "⋮";
             this.btnOpciones.UseVisualStyleBackColor = true;
+            this.btnOpciones.Click += new System.EventHandler(this.btnOpciones_Click);
             // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
             this.lblestado.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblestado.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblestado.Location = new System.Drawing.Point(174, 13);
+            this.lblestado.Location = new System.Drawing.Point(133, 43);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(40, 13);
             this.lblestado.TabIndex = 5;
@@ -97,7 +102,7 @@
             this.lblprioridad.AutoSize = true;
             this.lblprioridad.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblprioridad.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblprioridad.Location = new System.Drawing.Point(174, 0);
+            this.lblprioridad.Location = new System.Drawing.Point(9, 43);
             this.lblprioridad.Name = "lblprioridad";
             this.lblprioridad.Size = new System.Drawing.Size(40, 13);
             this.lblprioridad.TabIndex = 6;
@@ -110,38 +115,17 @@
             this.lblfechaentrega.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblfechaentrega.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfechaentrega.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.lblfechaentrega.Location = new System.Drawing.Point(218, 98);
+            this.lblfechaentrega.Location = new System.Drawing.Point(218, 125);
             this.lblfechaentrega.Name = "lblfechaentrega";
             this.lblfechaentrega.Size = new System.Drawing.Size(109, 13);
             this.lblfechaentrega.TabIndex = 7;
             this.lblfechaentrega.Text = "Entrega: 01/01/2025";
             this.lblfechaentrega.Click += new System.EventHandler(this.UCProyectoItem_Click);
             // 
-            // progressBar
-            // 
-            this.progressBar.Location = new System.Drawing.Point(11, 121);
-            this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(285, 12);
-            this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.progressBar.TabIndex = 9;
-            // 
-            // lblProgreso
-            // 
-            this.lblProgreso.AutoSize = true;
-            this.lblProgreso.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProgreso.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.lblProgreso.Location = new System.Drawing.Point(302, 119);
-            this.lblProgreso.Name = "lblProgreso";
-            this.lblProgreso.Size = new System.Drawing.Size(23, 13);
-            this.lblProgreso.TabIndex = 10;
-            this.lblProgreso.Text = "0%";
-            // 
             // panelHeader
             // 
             this.panelHeader.BackColor = System.Drawing.Color.Transparent;
             this.panelHeader.Controls.Add(this.lblTitle);
-            this.panelHeader.Controls.Add(this.lblprioridad);
-            this.panelHeader.Controls.Add(this.lblestado);
             this.panelHeader.Controls.Add(this.btnOpciones);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(5, 5);
@@ -152,12 +136,42 @@
             // lblDesc
             // 
             this.lblDesc.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lblDesc.Location = new System.Drawing.Point(5, 47);
+            this.lblDesc.Location = new System.Drawing.Point(5, 74);
             this.lblDesc.Multiline = true;
             this.lblDesc.Name = "lblDesc";
             this.lblDesc.ReadOnly = true;
             this.lblDesc.Size = new System.Drawing.Size(306, 48);
             this.lblDesc.TabIndex = 11;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.verDetallesToolStripMenuItem,
+            this.modificarToolStripMenuItem,
+            this.eliminarToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 92);
+            // 
+            // verDetallesToolStripMenuItem
+            // 
+            this.verDetallesToolStripMenuItem.Name = "verDetallesToolStripMenuItem";
+            this.verDetallesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verDetallesToolStripMenuItem.Text = "Ver Detalles";
+            this.verDetallesToolStripMenuItem.Click += new System.EventHandler(this.verDetallesToolStripMenuItem_Click);
+            // 
+            // modificarToolStripMenuItem
+            // 
+            this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarToolStripMenuItem.Text = "Modificar";
+            this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
+            // 
+            // eliminarToolStripMenuItem
+            // 
+            this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eliminarToolStripMenuItem.Text = "Eliminar";
+            this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
             // UCProyectoItem
             // 
@@ -166,8 +180,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.lblDesc);
-            this.Controls.Add(this.lblProgreso);
-            this.Controls.Add(this.progressBar);
+            this.Controls.Add(this.lblestado);
+            this.Controls.Add(this.lblprioridad);
             this.Controls.Add(this.lblfechaentrega);
             this.Controls.Add(this.lblHoras);
             this.Controls.Add(this.panelHeader);
@@ -179,6 +193,7 @@
             this.Click += new System.EventHandler(this.UCProyectoItem_Click);
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,8 +208,10 @@
         private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.Label lblprioridad;
         private System.Windows.Forms.Label lblfechaentrega;
-        private System.Windows.Forms.ProgressBar progressBar;
-        private System.Windows.Forms.Label lblProgreso;
         private System.Windows.Forms.TextBox lblDesc;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem verDetallesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
     }
 }

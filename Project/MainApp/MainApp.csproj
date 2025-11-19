@@ -49,17 +49,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Empleados.cs">
+    <Compile Include="formularios_secundarios\ProyectoDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios_secundarios\ProyectoDetalle.Designer.cs">
+      <DependentUpon>ProyectoDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios_secundarios\ProyectoModificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios_secundarios\ProyectoModificacion.Designer.cs">
+      <DependentUpon>ProyectoModificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios_secundarios\TareaDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios_secundarios\TareaDetalle.Designer.cs">
+      <DependentUpon>TareaDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios_secundarios\TareaModificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios_secundarios\TareaModificacion.Designer.cs">
+      <DependentUpon>TareaModificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vistas_principales\Empleados.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Empleados.Designer.cs">
+    <Compile Include="vistas_principales\Empleados.Designer.cs">
       <DependentUpon>Empleados.cs</DependentUpon>
     </Compile>
     <Compile Include="funciones.cs" />
-    <Compile Include="Main.cs">
+    <Compile Include="vistas_principales\Main.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="vistas_principales\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
@@ -68,51 +92,63 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NuevaTarea.cs">
+    <Compile Include="formularios_secundarios\NuevaTarea.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NuevaTarea.Designer.cs">
+    <Compile Include="formularios_secundarios\NuevaTarea.Designer.cs">
       <DependentUpon>NuevaTarea.cs</DependentUpon>
     </Compile>
-    <Compile Include="NuevoProyecto.cs">
+    <Compile Include="formularios_secundarios\NuevoProyecto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NuevoProyecto.Designer.cs">
+    <Compile Include="formularios_secundarios\NuevoProyecto.Designer.cs">
       <DependentUpon>NuevoProyecto.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proyectos.cs">
+    <Compile Include="vistas_principales\Proyectos.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Proyectos.Designer.cs">
+    <Compile Include="vistas_principales\Proyectos.Designer.cs">
       <DependentUpon>Proyectos.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCProyectoItem.cs">
+    <Compile Include="usercontrols_secundarios\UCProyectoItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCProyectoItem.Designer.cs">
+    <Compile Include="usercontrols_secundarios\UCProyectoItem.Designer.cs">
       <DependentUpon>UCProyectoItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCTareaItem.cs">
+    <Compile Include="usercontrols_secundarios\UCTareaItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCTareaItem.Designer.cs">
+    <Compile Include="usercontrols_secundarios\UCTareaItem.Designer.cs">
       <DependentUpon>UCTareaItem.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Empleados.resx">
+    <EmbeddedResource Include="formularios_secundarios\ProyectoDetalle.resx">
+      <DependentUpon>ProyectoDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios_secundarios\ProyectoModificacion.resx">
+      <DependentUpon>ProyectoModificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios_secundarios\TareaDetalle.resx">
+      <DependentUpon>TareaDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios_secundarios\TareaModificacion.resx">
+      <DependentUpon>TareaModificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vistas_principales\Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="vistas_principales\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NuevaTarea.resx">
+    <EmbeddedResource Include="formularios_secundarios\NuevaTarea.resx">
       <DependentUpon>NuevaTarea.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NuevoProyecto.resx">
+    <EmbeddedResource Include="formularios_secundarios\NuevoProyecto.resx">
       <DependentUpon>NuevoProyecto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -125,13 +161,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Proyectos.resx">
+    <EmbeddedResource Include="vistas_principales\Proyectos.resx">
       <DependentUpon>Proyectos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCProyectoItem.resx">
+    <EmbeddedResource Include="usercontrols_secundarios\UCProyectoItem.resx">
       <DependentUpon>UCProyectoItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCTareaItem.resx">
+    <EmbeddedResource Include="usercontrols_secundarios\UCTareaItem.resx">
       <DependentUpon>UCTareaItem.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -159,5 +195,6 @@
   <ItemGroup>
     <None Include="Resources\Bootstrap-Bootstrap-Bootstrap-filetype-csv.5121.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

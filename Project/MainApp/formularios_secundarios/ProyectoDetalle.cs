@@ -8,13 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MainApp
+namespace MainApp.formularios_secundarios
 {
-    public partial class NuevoProyecto : Form
+    public partial class ProyectoDetalle : Form
     {
-        public NuevoProyecto()
+        private int? proyectoId;
+
+        public ProyectoDetalle(int? id)
         {
             InitializeComponent();
+            proyectoId = id;
+        }
+
+        private void ProyectoDetalle_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
