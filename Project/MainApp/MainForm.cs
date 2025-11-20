@@ -30,7 +30,9 @@ namespace MainApp
 
         private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CargarUC<Empleados>(panel1);
+            MessageBox.Show("aun no esta disponible esta parte", "quieto paraooo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            return;
+            //CargarUC<Empleados>(panel1);
         }
 
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
@@ -44,6 +46,40 @@ namespace MainApp
         }
 
         private void exportarProyectosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("aun no esta disponible esta parte", "quieto paraooo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void TareasJSON(object sender, EventArgs e)
+        {
+            MessageBox.Show("aun no esta disponible esta parte", "quieto paraooo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+        private void TareasCSV(object sender, EventArgs e)
+        {
+            MessageBox.Show("aun no esta disponible esta parte", "quieto paraooo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void ProyectosJson(object sender, EventArgs e)
+        {
+            MessageBox.Show("aun no esta disponible esta parte", "quieto paraooo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void proyectosCSVExportCLICK(object sender, EventArgs e)
+        {
+            MessageBox.Show("aun no esta disponible esta parte", "quieto paraooo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void empleadosJson(object sender, EventArgs e)
+        {
+            MessageBox.Show("aun no esta disponible esta parte", "quieto paraooo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void empleadosCsv(object sender, EventArgs e)
+        {
+            MessageBox.Show("aun no esta disponible esta parte", "quieto paraooo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

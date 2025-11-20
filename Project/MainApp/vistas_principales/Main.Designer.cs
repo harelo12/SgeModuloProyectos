@@ -32,31 +32,31 @@
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txt1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txt2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.txt3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.txt5 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
+            this.txt6 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
+            this.txt7 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label14 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtProyectos = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label15 = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dtTareas = new System.Windows.Forms.DataGridView();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -68,10 +68,10 @@
             this.panel5.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtProyectos)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtTareas)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -129,7 +129,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label3);
+            this.panel6.Controls.Add(this.txt1);
             this.panel6.Controls.Add(this.label2);
             this.panel6.Location = new System.Drawing.Point(40, 15);
             this.panel6.Margin = new System.Windows.Forms.Padding(40, 15, 10, 3);
@@ -137,17 +137,17 @@
             this.panel6.Size = new System.Drawing.Size(155, 53);
             this.panel6.TabIndex = 1;
             // 
-            // label3
+            // txt1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
-            this.label3.Location = new System.Drawing.Point(3, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 32);
-            this.label3.TabIndex = 1;
-            this.label3.Tag = "0";
-            this.label3.Text = "0";
+            this.txt1.AutoSize = true;
+            this.txt1.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
+            this.txt1.Location = new System.Drawing.Point(3, 20);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(29, 32);
+            this.txt1.TabIndex = 1;
+            this.txt1.Tag = "0";
+            this.txt1.Text = "0";
             // 
             // label2
             // 
@@ -165,7 +165,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.txt2);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(208, 15);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
@@ -173,17 +173,17 @@
             this.panel1.Size = new System.Drawing.Size(155, 53);
             this.panel1.TabIndex = 0;
             // 
-            // label4
+            // txt2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
-            this.label4.Location = new System.Drawing.Point(-1, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 32);
-            this.label4.TabIndex = 3;
-            this.label4.Tag = "0";
-            this.label4.Text = "0";
+            this.txt2.AutoSize = true;
+            this.txt2.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
+            this.txt2.Location = new System.Drawing.Point(-1, 20);
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(29, 32);
+            this.txt2.TabIndex = 3;
+            this.txt2.Tag = "0";
+            this.txt2.Text = "0";
             // 
             // label5
             // 
@@ -201,7 +201,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.txt3);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Location = new System.Drawing.Point(376, 15);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
@@ -209,17 +209,17 @@
             this.panel2.Size = new System.Drawing.Size(155, 53);
             this.panel2.TabIndex = 1;
             // 
-            // label6
+            // txt3
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(105)))), ((int)(((byte)(20)))));
-            this.label6.Location = new System.Drawing.Point(3, 20);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 32);
-            this.label6.TabIndex = 3;
-            this.label6.Tag = "0";
-            this.label6.Text = "0";
+            this.txt3.AutoSize = true;
+            this.txt3.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(105)))), ((int)(((byte)(20)))));
+            this.txt3.Location = new System.Drawing.Point(3, 20);
+            this.txt3.Name = "txt3";
+            this.txt3.Size = new System.Drawing.Size(29, 32);
+            this.txt3.TabIndex = 3;
+            this.txt3.Tag = "0";
+            this.txt3.Text = "0";
             // 
             // label7
             // 
@@ -237,7 +237,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.txt5);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Location = new System.Drawing.Point(544, 15);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
@@ -245,17 +245,17 @@
             this.panel3.Size = new System.Drawing.Size(155, 53);
             this.panel3.TabIndex = 2;
             // 
-            // label8
+            // txt5
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(103)))), ((int)(((byte)(30)))));
-            this.label8.Location = new System.Drawing.Point(3, 21);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 32);
-            this.label8.TabIndex = 3;
-            this.label8.Tag = "0";
-            this.label8.Text = "0";
+            this.txt5.AutoSize = true;
+            this.txt5.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(103)))), ((int)(((byte)(30)))));
+            this.txt5.Location = new System.Drawing.Point(3, 21);
+            this.txt5.Name = "txt5";
+            this.txt5.Size = new System.Drawing.Size(29, 32);
+            this.txt5.TabIndex = 3;
+            this.txt5.Tag = "0";
+            this.txt5.Text = "0";
             // 
             // label9
             // 
@@ -273,7 +273,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.txt6);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Location = new System.Drawing.Point(712, 15);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
@@ -281,17 +281,17 @@
             this.panel4.Size = new System.Drawing.Size(155, 53);
             this.panel4.TabIndex = 3;
             // 
-            // label10
+            // txt6
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(39)))), ((int)(((byte)(41)))));
-            this.label10.Location = new System.Drawing.Point(0, 21);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(29, 32);
-            this.label10.TabIndex = 3;
-            this.label10.Tag = "0";
-            this.label10.Text = "0";
+            this.txt6.AutoSize = true;
+            this.txt6.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(39)))), ((int)(((byte)(41)))));
+            this.txt6.Location = new System.Drawing.Point(0, 21);
+            this.txt6.Name = "txt6";
+            this.txt6.Size = new System.Drawing.Size(29, 32);
+            this.txt6.TabIndex = 3;
+            this.txt6.Tag = "0";
+            this.txt6.Text = "0";
             // 
             // label11
             // 
@@ -308,7 +308,7 @@
             this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.label12);
+            this.panel5.Controls.Add(this.txt7);
             this.panel5.Controls.Add(this.label13);
             this.panel5.Location = new System.Drawing.Point(880, 15);
             this.panel5.Margin = new System.Windows.Forms.Padding(3, 15, 3, 3);
@@ -316,17 +316,17 @@
             this.panel5.Size = new System.Drawing.Size(155, 53);
             this.panel5.TabIndex = 4;
             // 
-            // label12
+            // txt7
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
-            this.label12.Location = new System.Drawing.Point(3, 21);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(29, 32);
-            this.label12.TabIndex = 3;
-            this.label12.Tag = "0";
-            this.label12.Text = "0";
+            this.txt7.AutoSize = true;
+            this.txt7.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(57)))), ((int)(((byte)(113)))));
+            this.txt7.Location = new System.Drawing.Point(3, 21);
+            this.txt7.Name = "txt7";
+            this.txt7.Size = new System.Drawing.Size(29, 32);
+            this.txt7.TabIndex = 3;
+            this.txt7.Tag = "0";
+            this.txt7.Text = "0";
             // 
             // label13
             // 
@@ -373,24 +373,24 @@
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.White;
             this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel2.Controls.Add(this.dataGridView1);
+            this.flowLayoutPanel2.Controls.Add(this.dtProyectos);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(4, 57);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(1061, 315);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
-            // dataGridView1
+            // dtProyectos
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 9);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(11, 9, 3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(1040, 295);
-            this.dataGridView1.TabIndex = 0;
+            this.dtProyectos.AllowUserToAddRows = false;
+            this.dtProyectos.AllowUserToDeleteRows = false;
+            this.dtProyectos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtProyectos.Location = new System.Drawing.Point(11, 9);
+            this.dtProyectos.Margin = new System.Windows.Forms.Padding(11, 9, 3, 3);
+            this.dtProyectos.Name = "dtProyectos";
+            this.dtProyectos.ReadOnly = true;
+            this.dtProyectos.Size = new System.Drawing.Size(1040, 295);
+            this.dtProyectos.TabIndex = 0;
             // 
             // tableLayoutPanel3
             // 
@@ -427,24 +427,24 @@
             // 
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.White;
             this.flowLayoutPanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel3.Controls.Add(this.dataGridView2);
+            this.flowLayoutPanel3.Controls.Add(this.dtTareas);
             this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel3.Location = new System.Drawing.Point(4, 50);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(1064, 338);
             this.flowLayoutPanel3.TabIndex = 1;
             // 
-            // dataGridView2
+            // dtTareas
             // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(11, 9);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(11, 9, 3, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.Size = new System.Drawing.Size(1043, 313);
-            this.dataGridView2.TabIndex = 0;
+            this.dtTareas.AllowUserToAddRows = false;
+            this.dtTareas.AllowUserToDeleteRows = false;
+            this.dtTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtTareas.Location = new System.Drawing.Point(11, 9);
+            this.dtTareas.Margin = new System.Windows.Forms.Padding(11, 9, 3, 3);
+            this.dtTareas.Name = "dtTareas";
+            this.dtTareas.ReadOnly = true;
+            this.dtTareas.Size = new System.Drawing.Size(1043, 313);
+            this.dtTareas.TabIndex = 0;
             // 
             // flowLayoutPanel4
             // 
@@ -484,11 +484,11 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtProyectos)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtTareas)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -504,26 +504,26 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label txt1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label txt2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label txt3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label txt5;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label txt6;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label txt7;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtProyectos;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dtTareas;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
     }
 }

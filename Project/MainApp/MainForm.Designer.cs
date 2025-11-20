@@ -32,8 +32,13 @@
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarProyectosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hojaDeDatoscsvToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jSONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportarTareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hojaDeDatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jSONToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarEmpleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hojaDeDatoscsvToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.jSONToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proyectosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,19 +64,22 @@
             // 
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exportarProyectosToolStripMenuItem,
+            this.exportarTareasToolStripMenuItem,
             this.exportarEmpleadosToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
+            this.archivoToolStripMenuItem.Click += new System.EventHandler(this.archivoToolStripMenuItem_Click);
             // 
             // exportarProyectosToolStripMenuItem
             // 
             this.exportarProyectosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hojaDeDatoscsvToolStripMenuItem});
+            this.hojaDeDatoscsvToolStripMenuItem,
+            this.jSONToolStripMenuItem});
             this.exportarProyectosToolStripMenuItem.Image = global::MainApp.Properties.Resources.Pictogrammers_Material_Export_variant2;
             this.exportarProyectosToolStripMenuItem.Name = "exportarProyectosToolStripMenuItem";
-            this.exportarProyectosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.exportarProyectosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exportarProyectosToolStripMenuItem.Text = "Exportar Proyectos";
             this.exportarProyectosToolStripMenuItem.Click += new System.EventHandler(this.exportarProyectosToolStripMenuItem_Click);
             // 
@@ -81,14 +89,47 @@
             this.hojaDeDatoscsvToolStripMenuItem.Name = "hojaDeDatoscsvToolStripMenuItem";
             this.hojaDeDatoscsvToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.hojaDeDatoscsvToolStripMenuItem.Text = "Hoja de datos (csv)";
+            this.hojaDeDatoscsvToolStripMenuItem.Click += new System.EventHandler(this.proyectosCSVExportCLICK);
+            // 
+            // jSONToolStripMenuItem
+            // 
+            this.jSONToolStripMenuItem.Name = "jSONToolStripMenuItem";
+            this.jSONToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.jSONToolStripMenuItem.Text = "JSON";
+            this.jSONToolStripMenuItem.Click += new System.EventHandler(this.ProyectosJson);
+            // 
+            // exportarTareasToolStripMenuItem
+            // 
+            this.exportarTareasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hojaDeDatToolStripMenuItem,
+            this.jSONToolStripMenuItem2});
+            this.exportarTareasToolStripMenuItem.Image = global::MainApp.Properties.Resources.Pictogrammers_Material_Export_variant_512;
+            this.exportarTareasToolStripMenuItem.Name = "exportarTareasToolStripMenuItem";
+            this.exportarTareasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exportarTareasToolStripMenuItem.Text = "Exportar Tareas";
+            // 
+            // hojaDeDatToolStripMenuItem
+            // 
+            this.hojaDeDatToolStripMenuItem.Name = "hojaDeDatToolStripMenuItem";
+            this.hojaDeDatToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.hojaDeDatToolStripMenuItem.Text = "Hoja de Datos (csv)";
+            this.hojaDeDatToolStripMenuItem.Click += new System.EventHandler(this.TareasCSV);
+            // 
+            // jSONToolStripMenuItem2
+            // 
+            this.jSONToolStripMenuItem2.Name = "jSONToolStripMenuItem2";
+            this.jSONToolStripMenuItem2.Size = new System.Drawing.Size(176, 22);
+            this.jSONToolStripMenuItem2.Text = "JSON";
+            this.jSONToolStripMenuItem2.Click += new System.EventHandler(this.TareasJSON);
             // 
             // exportarEmpleadosToolStripMenuItem
             // 
             this.exportarEmpleadosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hojaDeDatoscsvToolStripMenuItem1});
+            this.hojaDeDatoscsvToolStripMenuItem1,
+            this.jSONToolStripMenuItem1});
             this.exportarEmpleadosToolStripMenuItem.Image = global::MainApp.Properties.Resources.Pictogrammers_Material_Export_variant2;
             this.exportarEmpleadosToolStripMenuItem.Name = "exportarEmpleadosToolStripMenuItem";
-            this.exportarEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.exportarEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exportarEmpleadosToolStripMenuItem.Text = "Exportar Empleados";
             // 
             // hojaDeDatoscsvToolStripMenuItem1
@@ -97,11 +138,19 @@
             this.hojaDeDatoscsvToolStripMenuItem1.Name = "hojaDeDatoscsvToolStripMenuItem1";
             this.hojaDeDatoscsvToolStripMenuItem1.Size = new System.Drawing.Size(175, 22);
             this.hojaDeDatoscsvToolStripMenuItem1.Text = "Hoja de datos (csv)";
+            this.hojaDeDatoscsvToolStripMenuItem1.Click += new System.EventHandler(this.empleadosCsv);
+            // 
+            // jSONToolStripMenuItem1
+            // 
+            this.jSONToolStripMenuItem1.Name = "jSONToolStripMenuItem1";
+            this.jSONToolStripMenuItem1.Size = new System.Drawing.Size(175, 22);
+            this.jSONToolStripMenuItem1.Text = "JSON";
+            this.jSONToolStripMenuItem1.Click += new System.EventHandler(this.empleadosJson);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -168,6 +217,11 @@
         private System.Windows.Forms.ToolStripMenuItem hojaDeDatoscsvToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStripMenuItem jSONToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportarTareasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hojaDeDatToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem jSONToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem jSONToolStripMenuItem2;
     }
 }
 

@@ -19,6 +19,6 @@ namespace MainApp
             panel.Controls.Add(uc);
         }
 
-        
+
     }
 }

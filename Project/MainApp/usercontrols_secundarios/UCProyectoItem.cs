@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectManagement.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,41 +8,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using static ProjectManagement.Core.Projects;
+using System.Data.SqlClient;
 namespace MainApp
 {
     public partial class UCProyectoItem : UserControl
     {
-
-        private static int Id { get; set; }
-        private static string Title { get; set; }
-        private static string Description { get; set; }
-        private static DateTime StartDate { get; set; }
-        private static DateTime EndDate { get; set; }
-        private static string Prioridad { get; set; }
-        private static int LeaderId { get; set; }
-        private static string Estado { get; set; }
-        private static int Horas { get; set; }
-
-        public UCProyectoItem(int? id, string title, string description, DateTime? startDate, DateTime? enddate, string prioridad, int? leaderId, string estado, int horas)
+        private Proyectos padre;
+        private int? Id;
+        public UCProyectoItem(Proyectos padre, Project p)
         {
             InitializeComponent();
-            Id = id ?? 0;
-            Title = title;
-            Description = description;
-            StartDate = startDate ?? DateTime.MinValue;
-            EndDate = enddate ?? DateTime.MinValue; 
-            Prioridad = prioridad;
-            LeaderId = leaderId ?? 0;
-            Estado = estado;
-            Horas = horas;
 
-            lblTitle.Text = title;
-            lblDesc.Text = description;
-            lblHoras.Text = $"Total Horas: {horas}h";
-            lblprioridad.Text = $"Prioridad: {prioridad}";
-            lblestado.Text = $"Estado: {estado}";
-            lblfechaentrega .Text = enddate.HasValue ? $"Fecha Entrega: {enddate.Value.ToShortDateString()}" : "Fecha Entrega: N/A";
+            this.padre = padre;
+            Id = p.Id;
+
+            lblTitle.Text = p.Title;
+            lblDesc.Text = p.Description;
+            lblHoras.Text = $"Total Horas: {p.TotalHours}h";
+            CargarComboPrioridades(comboPrioridad);
+            comboPrioridad.SelectedValue = p.Priority;
+            CargarComboEstados(comboEstado);
+            comboEstado.SelectedValue = p.Status;
+            lblfechaentrega.Text = p.EndDate.HasValue ? $"Fecha Entrega: {p.EndDate.Value.ToShortDateString()}" : "Fecha Entrega: N/A";
         }
 
         private void UCProyectoItem_Load(object sender, EventArgs e)
@@ -75,15 +64,36 @@ namespace MainApp
         {
             var modificarForm = new formularios_secundarios.ProyectoModificacion(Id);
             modificarForm.ShowDialog();
+            padre.RecargarProyectos();
         }
 
         private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("¿Estás seguro de que deseas eliminar este proyecto?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            var result = MessageBox.Show("¿Estás seguro de que deseas eliminar \neste proyecto y todas las tareas relacionadas?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
-                // eliminar
+                using (var conn = new SqlConnection(getConnectionString()))
+                {
+                    conn.Open();
+                    using (var cmd = new SqlCommand("DELETE FROM Tasks WHERE ProjectID = @Id", conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Id", Id);
+                        cmd.ExecuteNonQuery();
+                    }
+                    using (var cmd = new SqlCommand("DELETE FROM Projects WHERE ProjectID = @Id", conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Id", Id);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+                MessageBox.Show("Proyecto eliminado correctamente.", "Eliminación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                padre.RecargarProyectos();
             }
+        }
+
+        private void UCProyectoItem_DoubleClick(object sender, EventArgs e)
+        {
+            padre.cargarTarea((int)Id);
         }
     }
 }

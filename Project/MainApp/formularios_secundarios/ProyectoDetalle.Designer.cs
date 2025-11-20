@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateEntrega = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboEstado = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboPrioridad = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboDelegado = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.dateInicio = new System.Windows.Forms.DateTimePicker();
+            this.textDesc = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textTitulo = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textId = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textHoras = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label7
@@ -59,14 +59,14 @@
             this.label7.TabIndex = 43;
             this.label7.Text = "Fecha de Fin";
             // 
-            // dateTimePicker2
+            // dateEntrega
             // 
-            this.dateTimePicker2.Enabled = false;
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(12, 311);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(303, 26);
-            this.dateTimePicker2.TabIndex = 42;
+            this.dateEntrega.Enabled = false;
+            this.dateEntrega.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEntrega.Location = new System.Drawing.Point(12, 311);
+            this.dateEntrega.Name = "dateEntrega";
+            this.dateEntrega.Size = new System.Drawing.Size(303, 26);
+            this.dateEntrega.TabIndex = 42;
             // 
             // label6
             // 
@@ -78,15 +78,15 @@
             this.label6.TabIndex = 41;
             this.label6.Text = "Estado";
             // 
-            // comboBox3
+            // comboEstado
             // 
-            this.comboBox3.Enabled = false;
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(345, 100);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(303, 28);
-            this.comboBox3.TabIndex = 40;
+            this.comboEstado.Enabled = false;
+            this.comboEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboEstado.FormattingEnabled = true;
+            this.comboEstado.Location = new System.Drawing.Point(345, 100);
+            this.comboEstado.Name = "comboEstado";
+            this.comboEstado.Size = new System.Drawing.Size(303, 28);
+            this.comboEstado.TabIndex = 40;
             // 
             // button2
             // 
@@ -111,15 +111,15 @@
             this.label5.TabIndex = 37;
             this.label5.Text = "Prioridad";
             // 
-            // comboBox2
+            // comboPrioridad
             // 
-            this.comboBox2.Enabled = false;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(345, 163);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(303, 28);
-            this.comboBox2.TabIndex = 36;
+            this.comboPrioridad.Enabled = false;
+            this.comboPrioridad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboPrioridad.FormattingEnabled = true;
+            this.comboPrioridad.Location = new System.Drawing.Point(345, 163);
+            this.comboPrioridad.Name = "comboPrioridad";
+            this.comboPrioridad.Size = new System.Drawing.Size(303, 28);
+            this.comboPrioridad.TabIndex = 36;
             // 
             // label4
             // 
@@ -131,15 +131,15 @@
             this.label4.TabIndex = 35;
             this.label4.Text = "Delegado";
             // 
-            // comboBox1
+            // comboDelegado
             // 
-            this.comboBox1.Enabled = false;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(345, 32);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(303, 28);
-            this.comboBox1.TabIndex = 34;
+            this.comboDelegado.Enabled = false;
+            this.comboDelegado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboDelegado.FormattingEnabled = true;
+            this.comboDelegado.Location = new System.Drawing.Point(345, 32);
+            this.comboDelegado.Name = "comboDelegado";
+            this.comboDelegado.Size = new System.Drawing.Size(303, 28);
+            this.comboDelegado.TabIndex = 34;
             // 
             // label3
             // 
@@ -151,25 +151,25 @@
             this.label3.TabIndex = 33;
             this.label3.Text = "Fecha de Inicio";
             // 
-            // dateTimePicker1
+            // dateInicio
             // 
-            this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(12, 249);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(303, 26);
-            this.dateTimePicker1.TabIndex = 32;
+            this.dateInicio.Enabled = false;
+            this.dateInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateInicio.Location = new System.Drawing.Point(12, 249);
+            this.dateInicio.Name = "dateInicio";
+            this.dateInicio.Size = new System.Drawing.Size(303, 26);
+            this.dateInicio.TabIndex = 32;
             // 
-            // textBox2
+            // textDesc
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(16, 154);
-            this.textBox2.MaxLength = 150;
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(299, 54);
-            this.textBox2.TabIndex = 31;
+            this.textDesc.Enabled = false;
+            this.textDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textDesc.Location = new System.Drawing.Point(16, 154);
+            this.textDesc.MaxLength = 150;
+            this.textDesc.Multiline = true;
+            this.textDesc.Name = "textDesc";
+            this.textDesc.Size = new System.Drawing.Size(299, 54);
+            this.textDesc.TabIndex = 31;
             // 
             // label2
             // 
@@ -191,14 +191,14 @@
             this.label1.TabIndex = 29;
             this.label1.Text = "Título del Proyecto";
             // 
-            // textBox1
+            // textTitulo
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(16, 91);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(299, 26);
-            this.textBox1.TabIndex = 28;
+            this.textTitulo.Enabled = false;
+            this.textTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textTitulo.Location = new System.Drawing.Point(16, 91);
+            this.textTitulo.Name = "textTitulo";
+            this.textTitulo.Size = new System.Drawing.Size(299, 26);
+            this.textTitulo.TabIndex = 28;
             // 
             // label8
             // 
@@ -210,14 +210,14 @@
             this.label8.TabIndex = 45;
             this.label8.Text = "ID del Proyecto";
             // 
-            // textBox3
+            // textId
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(16, 32);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(299, 26);
-            this.textBox3.TabIndex = 44;
+            this.textId.Enabled = false;
+            this.textId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textId.Location = new System.Drawing.Point(16, 32);
+            this.textId.Name = "textId";
+            this.textId.Size = new System.Drawing.Size(299, 26);
+            this.textId.TabIndex = 44;
             // 
             // label9
             // 
@@ -229,14 +229,14 @@
             this.label9.TabIndex = 47;
             this.label9.Text = "Horas Totales";
             // 
-            // textBox4
+            // textHoras
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(347, 231);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(299, 26);
-            this.textBox4.TabIndex = 46;
+            this.textHoras.Enabled = false;
+            this.textHoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textHoras.Location = new System.Drawing.Point(347, 231);
+            this.textHoras.Name = "textHoras";
+            this.textHoras.Size = new System.Drawing.Size(299, 26);
+            this.textHoras.TabIndex = 46;
             // 
             // ProyectoDetalle
             // 
@@ -245,25 +245,24 @@
             this.ClientSize = new System.Drawing.Size(670, 361);
             this.ControlBox = false;
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textHoras);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textId);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dateEntrega);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.comboEstado);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboPrioridad);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboDelegado);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.dateInicio);
+            this.Controls.Add(this.textDesc);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Enabled = true;
+            this.Controls.Add(this.textTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ProyectoDetalle";
             this.Text = "Proyecto en Detalle";
@@ -276,23 +275,23 @@
         #endregion
 
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateEntrega;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboEstado;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboPrioridad;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboDelegado;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DateTimePicker dateInicio;
+        private System.Windows.Forms.TextBox textDesc;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textTitulo;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textId;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textHoras;
     }
 }

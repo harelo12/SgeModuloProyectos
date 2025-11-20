@@ -14,10 +14,9 @@
             this.lblHours = new System.Windows.Forms.Label();
             this.lblStartDate = new System.Windows.Forms.Label();
             this.lblEndDate = new System.Windows.Forms.Label();
-            this.lblPriority = new System.Windows.Forms.Label();
             this.pnlDetails = new System.Windows.Forms.Panel();
-            this.lblResponsable = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.comboDelegado = new System.Windows.Forms.ComboBox();
+            this.comboPrioridad = new System.Windows.Forms.ComboBox();
             this.textHoras = new System.Windows.Forms.TextBox();
             this.lblDescripcion = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -44,6 +43,7 @@
             // cmbStatus
             // 
             this.cmbStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbStatus.Enabled = false;
             this.cmbStatus.FormattingEnabled = true;
             this.cmbStatus.Location = new System.Drawing.Point(562, 32);
             this.cmbStatus.Name = "cmbStatus";
@@ -53,7 +53,7 @@
             // lblHours
             // 
             this.lblHours.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblHours.Location = new System.Drawing.Point(203, 5);
+            this.lblHours.Location = new System.Drawing.Point(252, 5);
             this.lblHours.Name = "lblHours";
             this.lblHours.Size = new System.Drawing.Size(43, 15);
             this.lblHours.TabIndex = 3;
@@ -77,28 +77,17 @@
             this.lblEndDate.TabIndex = 1;
             this.lblEndDate.Text = "Fin: 01/01/2025";
             // 
-            // lblPriority
-            // 
-            this.lblPriority.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPriority.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriority.Location = new System.Drawing.Point(203, 30);
-            this.lblPriority.Name = "lblPriority";
-            this.lblPriority.Size = new System.Drawing.Size(100, 15);
-            this.lblPriority.TabIndex = 0;
-            this.lblPriority.Text = "Prioridad: X";
-            // 
             // pnlDetails
             // 
             this.pnlDetails.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlDetails.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDetails.Controls.Add(this.lblResponsable);
-            this.pnlDetails.Controls.Add(this.button2);
+            this.pnlDetails.Controls.Add(this.comboDelegado);
+            this.pnlDetails.Controls.Add(this.comboPrioridad);
             this.pnlDetails.Controls.Add(this.textHoras);
             this.pnlDetails.Controls.Add(this.cmbStatus);
             this.pnlDetails.Controls.Add(this.lblDescripcion);
-            this.pnlDetails.Controls.Add(this.lblPriority);
             this.pnlDetails.Controls.Add(this.lblEndDate);
             this.pnlDetails.Controls.Add(this.lblStartDate);
             this.pnlDetails.Controls.Add(this.lblHours);
@@ -106,29 +95,32 @@
             this.pnlDetails.Name = "pnlDetails";
             this.pnlDetails.Size = new System.Drawing.Size(688, 58);
             this.pnlDetails.TabIndex = 1;
+            this.pnlDetails.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlDetails_Paint);
             // 
-            // lblResponsable
+            // comboDelegado
             // 
-            this.lblResponsable.AutoSize = true;
-            this.lblResponsable.Location = new System.Drawing.Point(360, 35);
-            this.lblResponsable.Name = "lblResponsable";
-            this.lblResponsable.Size = new System.Drawing.Size(75, 13);
-            this.lblResponsable.TabIndex = 9;
-            this.lblResponsable.Text = "Responsable: ";
+            this.comboDelegado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboDelegado.Enabled = false;
+            this.comboDelegado.FormattingEnabled = true;
+            this.comboDelegado.Location = new System.Drawing.Point(398, 32);
+            this.comboDelegado.Name = "comboDelegado";
+            this.comboDelegado.Size = new System.Drawing.Size(120, 21);
+            this.comboDelegado.TabIndex = 11;
             // 
-            // button2
+            // comboPrioridad
             // 
-            this.button2.Location = new System.Drawing.Point(360, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "sumar horas";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.comboPrioridad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboPrioridad.Enabled = false;
+            this.comboPrioridad.FormattingEnabled = true;
+            this.comboPrioridad.Location = new System.Drawing.Point(234, 32);
+            this.comboPrioridad.Name = "comboPrioridad";
+            this.comboPrioridad.Size = new System.Drawing.Size(120, 21);
+            this.comboPrioridad.TabIndex = 10;
             // 
             // textHoras
             // 
-            this.textHoras.Location = new System.Drawing.Point(253, 4);
+            this.textHoras.Enabled = false;
+            this.textHoras.Location = new System.Drawing.Point(302, 4);
             this.textHoras.Name = "textHoras";
             this.textHoras.Size = new System.Drawing.Size(100, 20);
             this.textHoras.TabIndex = 7;
@@ -150,26 +142,26 @@
             this.modificarToolStripMenuItem,
             this.eliminarToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(134, 70);
             // 
             // verDetallesToolStripMenuItem
             // 
             this.verDetallesToolStripMenuItem.Name = "verDetallesToolStripMenuItem";
-            this.verDetallesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verDetallesToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.verDetallesToolStripMenuItem.Text = "Ver detalles";
             this.verDetallesToolStripMenuItem.Click += new System.EventHandler(this.verDetallesToolStripMenuItem_Click);
             // 
             // modificarToolStripMenuItem
             // 
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.modificarToolStripMenuItem.Text = "Modificar";
             this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
             // 
             // eliminarToolStripMenuItem
             // 
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
             this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
@@ -213,17 +205,16 @@
         private System.Windows.Forms.Label lblHours;
         private System.Windows.Forms.Label lblStartDate;
         private System.Windows.Forms.Label lblEndDate;
-        private System.Windows.Forms.Label lblPriority;
         private System.Windows.Forms.Panel pnlDetails;
         private System.Windows.Forms.TextBox lblDescripcion;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.ComponentModel.IContainer components;
         private System.Windows.Forms.TextBox textHoras;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label lblResponsable;
         private System.Windows.Forms.Button btnOpciones;
         private System.Windows.Forms.ToolStripMenuItem verDetallesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
+        private System.Windows.Forms.ComboBox comboDelegado;
+        private System.Windows.Forms.ComboBox comboPrioridad;
     }
 }
